@@ -14,3 +14,6 @@ def is_prime(n):
 
 def is_even(number):
     return number % 2 == 0
+
+def new_function():
+    print("This is a new function added by user 1")
