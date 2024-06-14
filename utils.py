@@ -11,4 +11,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-    
+
+def is_even(number):
+    return number % 2 == 0
