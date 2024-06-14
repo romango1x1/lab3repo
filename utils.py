@@ -17,3 +17,6 @@ def is_even(number):
 
 def new_function():
     print("This is a new function added by user 1")
+
+def is_power_of_two(n):
+    return n > 0 and (n & (n - 1)) == 0
